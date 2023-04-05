@@ -27,7 +27,7 @@ id = id + 1;
 
 
 
-var a = `insert into TB_CAIXA (id_Caixa, TB_PAGAMENTO_TB_MOEDA_id_Moeda,TB_PAGAMENTO_id_Pagamento,TB_NOTAFISCAL_id_NotaFiscal,Valor_Total,Date)  values (${id}, ${moeda}, ${pagamento}, ${nota}, ${valor}, "${data}");`;
+var a = `insert into TB_CAIXA (id_Caixa, TB_PAGAMENTO_TB_MOEDA_id_Moeda,TB_PAGAMENTO_id_Pagamento,TB_NOTAFISCAL_id_NotaFiscal,Valor_Total,Date)  values (${id}, 1, ${pagamento}, ${nota}, ${valor}, "${data}");`;
 
 console.log(a)
 

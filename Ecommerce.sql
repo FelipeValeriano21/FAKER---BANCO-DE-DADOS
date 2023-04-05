@@ -284,5 +284,10 @@ CREATE INDEX TB_COMISSAO_FKIndex2 ON TB_COMISSAO (TB_CAIXA_id_Caixa);
 CREATE INDEX IFK_Rel_26 ON TB_COMISSAO (TB_CAIXA_id_Caixa);
 
 
+/*UPDATE TB_Comissao 
+INNER JOIN TB_Caixa ON TB_Caixa.id_Caixa = TB_Comissao.TB_CAIXA_id_Caixa 
+SET TB_Comissao.Valor_Comissao = TB_Comissao.Taxa * TB_Caixa.Valor_Total where id_Comissao = 1;*/
+
+
 
 
